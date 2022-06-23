@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#active{
+    color : rgb(165, 165, 248);
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    border-bottom : 2px solid black;
+    margin : 0;
+    padding : 20px;
+}
+ol{
+    border-right :2px solid black;
+    margin :0px;
+    padding: 30px;
+    padding-left: 40px;
+    width : 140px;
+}
+li{
+    font-size : 25px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 220px 1fr;
+}
+#article{
+    padding: 10px;
+}
+@media(max-width:700px){
+    #grid{
+        display: block;
+         }
+        
+        ol{
+            border-right :none;
+        }
+        h1{
+            border-bottom : none;
+        }
+    }
