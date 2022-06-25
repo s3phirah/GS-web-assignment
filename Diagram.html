@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html - css 구축</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            #img{
+               text-align : center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- 상단 -->
+        <h1><a href="index.html">Web development</a></h1>
+        
+        <div id="grid">
+        <!-- 좌측 항목 부분 -->
+        <ol>
+                <li><a href="summary.html">개요</a></li>
+                <li><a href="development.html">개발일지</a></li>
+                <li><a href="Diagram.html" id = "active">Diagram</a></li>
+                <li><a href= "analysis.html">분석</a></li>
+                <ul>
+                <li><a href="analysis - chart.html">HTML</a></li>
+                <li><a href="analysis - comment.html">CSS</a></li>  
+                </ul>
+            </ol>
+            <div id = "img">
+                <h2>웹페이지 구성도</h2>
+                <p>
+                    <img src="Diagram.PNG">
+                </p>
+                <div>
+                    <form action="http://localhost/survey.php">
+                        <h2> 설문조사</h2>
+                        <p>
+                            이 웹페이지는 어떠한가
+                        </p>
+                    
+                        <select name="likeable">
+                            <option value="bad">bad</option>
+                            <option value="soso">soso</option>
+                            <option value="good">good</option>
+                        </select>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

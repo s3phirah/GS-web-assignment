@@ -20,17 +20,22 @@ ol{
     margin :0px;
     padding: 30px;
     padding-left: 40px;
-    width : 140px;
+    width : 200px;
 }
 li{
     font-size : 25px;
 }
 #grid{
     display: grid;
-    grid-template-columns: 220px 1fr;
+    grid-template-columns: 300px 1fr;
 }
 #article{
     padding: 10px;
+}
+#text{
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 150px;
 }
 @media(max-width:700px){
     #grid{

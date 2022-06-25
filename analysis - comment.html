@@ -3,7 +3,25 @@
     <head>
         <title>html - css 구축</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="style.css">
+     <style>
+        h2{
+            text-align: center;
+            font-size: 45px;
+            padding : 10px;
+            margin : 0;
+        }
+        h3{
+            font-size: 30px;
+            padding : 10px;
+            margin : 0;
+        }
+        #text{
+            font-size: 20px;
+            padding-left: 30px;
+        }
+
+     </style>
     </head>
 
     <body>
@@ -14,21 +32,30 @@
         <!-- 좌측 항목 부분 -->
         <ol>
                 <li><a href="summary.html">개요</a></li>
-                <li><a href="as.html">as</a></li>
                 <li><a href="development.html">개발일지</a></li>
-                <li><a href="flowchart.html">flowchart</a></li>
+                <li><a href="Diagram.html">Diagram</a></li>
                 <li><a href= "analysis.html">분석</a></li>
                 <ul>
-                <li><a href="analysis - chart.html">표</a></li>
-                <li><a href="analysis - comment.html" id = "active">댓글</a></li>
-                <li><a href="analysis - else.html">기타</a></li>  
+                <li><a href="analysis - chart.html" id = "active">HTML</a></li>
+                <li><a href="analysis - comment.html">CSS</a></li>
                 </ul>
             </ol>
             <div id = "article">
-                <h2>소개말</h2>
-                <p>
-                안녕하세요 1800289 이유진입니다. 이 웹페이지는 군산대학교 web프로그래밍 수업하에 개발되고 있으며 html 및 css를 이용하여 작업하고 있습니다.
-                </p>
+                <h2 style="font-size: 40px;">HTML</h2>
+                <br>
+                <h3><u>설계</u></h3>
+                <div id="text">
+                    <p>
+                       font-size : 텍스트의 사이즈를 조절하기 위해 사용됩니다. p 태그 안에 있는 텍스트를 id를 이용하여 제가 원하는 부분에만 적용하였습니다.
+                       <br><br>
+                       color : 표, 텍스트, 박스 등의 색상에 변화를 줄 수 있는 태그입니다. 이 웹사이트는 리스트에 적용되어 있으며 해당 페이지에 접속해 있다는 의미로 사용하고 있습니다.
+                       <br><br>
+                       text-align : 해당하는 텍스트 및 이미지에 정렬을 하기 위해 사용합니다. left, right, center, justify와 같이 쓰이며 주로 h1, h2, img 태그와 같이 사용하였습니다.
+                       <br><br>
+                       box model : padding,border, margin를 사용하여 해당하는 태그에 테두리를 표현하기 위해 사용합니다. 웹사이트에 적용된 부분으로 ol, li 와 div를 구분짓는데 사용하고 있습니다.
+                       <br><br>
+                    </p>
+                </div>               
             </div>
         </div>
 
